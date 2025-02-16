@@ -49,4 +49,4 @@ O **Mata Mosquito** é um jogo interativo onde o objetivo é matar o maior núme
 
 1. **Clonar o repositório:**
    ```bash
-   git clone https://github.com/seuusuario/Mata_Mosquito.git
+   git clone https://github.com/vinisilvabariane/Mata_Mosquito.git
