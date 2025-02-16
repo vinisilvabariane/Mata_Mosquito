@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mata Mosquito</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="imagens/mosca.ico">
+</head>
+
+<body onresize="redimensionar()">
+
+    <div class="painel">
+        <div class="vidas">
+            <img id="v1" src="imagens/coracao_cheio.png" alt="Coracao Vazio">
+            <img id="v2" src="imagens/coracao_cheio.png" alt="Coracao Vazio">
+            <img id="v3" src="imagens/coracao_cheio.png" alt="Coracao Vazio">
+            <img id="v4" src="imagens/coracao_cheio.png" alt="Coracao Vazio">
+            <img id="v5" src="imagens/coracao_cheio.png" alt="Coracao Vazio">
+        </div>
+        <div class="cronometro">
+            Tempo Restante: <span id="tempo"></span>
+        </div>
+        <div class="pontos">
+            Pontos: <span id="cont"></span>
+        </div>
+    </div>
+
+    <!-- Js Includes -->
+    <script src="jogo.js"></script>
+    <script>
+        document.getElementById("tempo").innerHTML = tempo;
+        var criaMosca = setInterval(function () {
+            posicaoRandomica();
+        }, criaMosca);
+    </script>
+</body>
+
+</html>
